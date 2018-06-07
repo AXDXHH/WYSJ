@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" /><!--连接reset.css（重置）样式表-->
+<link rel="stylesheet" type="text/css" href="css/design.css" />
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+<div class="warp">
+<header class="header">
+<div class="header_left">
+<img src="images/logo2.jpg" alt="" />
+</div>
+<div class="header_right">
+<div class="number">
+<img src="images/number.jpg" alt="" />
+</div>
+<ul>
+    <a href="index.html"><li>首页</li></a>
+    <a href="alzs.html"><li>案例展示</li></a>
+    <a href="gywm.html"><li>关于我们</li></a>
+    <a href="fwlc.html"><li>服务流程</li></a> 
+    <a href="wtzx.html"><li>问题咨询</li></a>
+    <a href="#"><li>我要设计</li></a>
+</ul>
+</header>
+<div class="banner">
+<div class="banner_wrap">
+<ul class="banner_img clear_fix"> 
+<li class="ig"><img src="images/banner_one.jpg" alt="" /></li>
+<li class="ig"><img src="images/banner_4.png" alt="" /></li>
+<li class="ig"><img src="images/banner_four.png" alt="" /></li>
+<li class="ig"><img src="images/banner_6.png" alt="" /></li>
+</ul>
+<div class="left_button">
+<img src="images/向左.png" alt="" />
+</div>
+<div class="right_button">
+<img src="images/向右.png" alt="" />
+</div>
+</div>
+</div> 
+<div class="content">
+
+<p>我们做什么？</p>
+
+<div class="content_one">
+<img src="images/design2.png" alt="" />
+<img src="images/design3.png" alt="" />
+<img src="images/design5.png" alt="" />
+<img src="images/design7.png" alt="" />
+<img src="images/design9.png" alt="" />
+<img src="images/design.png" alt=""  class="white_img"/>
+<img src="images/design4.png" alt=""  class="white_img" />
+<img src="images/design6.png" alt=""  class="white_img" />
+<img src="images/design8.png" alt=""  class="white_img" />
+<img src="images/design10.png" alt="" class="white_img" />
+</div>
+</div>
+<div class="footer">
+<div class="fotter_wrap">
+<div>
+<img src="images/code.png" width="100px"  height="100px" alt="" />
+</div>
+<div class="footer_text">
+<span>xx省XX市XX区xx路xx街道xx号</span>
+<span>Copyright</span>
+<span style="margin: 0 10px">©</span>
+<span> 2014-2017</span>
+<span>51自学网</span>
+<span> 扫一扫，直接沟通设计师</span>
+</div>
+</div>
+</div>
+<div class="back-top">
+<a href="#">
+<img src="images/向上箭头.svg" alt="" />
+</a>
+</div>
+</div>
+   
+</body>
+</html>
