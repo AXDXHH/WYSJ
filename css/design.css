@@ -1,0 +1,261 @@
+.header{
+	height: 120px;
+	width: 1046px;
+	margin: 0 auto;
+}
+.header_left{
+    float: left;
+    line-height: 120px;
+}
+.header_right{
+	float: right;
+	height:120px;
+	position:relative;
+}
+.header_right>div{ /* <!--header-right下的所有div-->*/
+	position:absolute;
+	top:0;
+	right:0;
+}
+.header_right ul{ /*  header-right下所有的ul*/
+	margin-top: 88px;
+}
+.header_right ul a{
+	float: left;
+	line-height:13px;
+}
+.header_right ul a li{  /* header-right下所有ul,ul下所有的a,a下所有的li.*/
+	border-right:1px solid #000000;
+	height:13px;
+    font-size:15px;
+	padding:0 25px;  /* 填充上下0，左右25.*/
+	font-weight:bold;
+	color:#666;
+}
+.header_right  ul  a  li:hover{
+	color:#000;
+}
+.header_right  ul  a:last-child li{   /* ul下最后一个li*/
+	border:none;
+
+}
+.banner{
+	min-width:1080px;
+}
+.banner_wrap{
+	height: 500px;
+	width:100%;
+	overflow:hidden; /* 用不换行*/
+	white-space:nowrap;
+	position:relative;
+}
+.banner _wrap  banner_img{
+	height:100%;
+	margin: 0  auto;
+	width:200%;
+	position:relative;
+	
+}
+.banner_wrap  .banner_img  li{
+	float:left;
+	height:100%;
+	width:50%；
+	margin: 0 auto;
+	position:absolute;
+}
+.clear_fix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.banner_wrap  .banner_img  li img{
+	width:100%;
+	height:100%;
+}
+.left_button{
+	cursor:pointer;  /*鼠标移上变成手*/
+	background:#999;
+	height:71px;
+	width:71px;
+	top:50%;
+	left:65px;
+	position:absolute; /* 相对于banner_wrap定位*/
+}
+.left_button img{
+	width:100%;
+	height:1005；
+}
+.right_button{
+	cursor:pointer;
+	background:#999;
+	height:71px;
+	width:71px;
+	top:50%;
+	right:65px;
+	position:absolute; /* 相对于banner_wrap定位*/
+}
+.right_button img{
+	width:100%;
+	height:100%；
+}
+.content_one{
+	max-width: 1046px;
+	margin: 0 auto;
+	height:380px;
+	margin-top:-20px;
+}
+.content p{
+	text-align:center;
+    font-family:SimSun;
+	font-size:50px;
+	margin-top:100px;
+	
+}
+	
+.content_one img{
+	padding: 60px 10px;
+    width:182px;
+	height:130px;
+}
+.content_one  .white_img{
+	position:relative;
+	bottom: 250px;
+	opacity: 0;   /* 隐藏white_img*/
+	
+}
+.content_one  .white_img:hover{
+	opacity: 1;
+}
+.content_one .white_img:hover{
+ opacity: 1;
+}
+.content_two{
+    width: 100%;
+    background: gainsboro;
+    text-align: center;
+	height:600px;
+	overflow:hidden;  /* 超出的部分影藏*/
+	
+}
+.content_header{
+    width: 1040px;
+    margin: 0 auto;
+}
+.content_header div:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.content_header div span{
+    color: #666;
+    font-size: 13px;
+}
+.content_header div:nth-child(3){
+  padding-bottom: 40px;
+}
+.mid{
+    max-width: 1060px;
+    margin: 0 auto;
+	
+}
+.mid img{
+    padding: 5px 5px 40px 5px;
+}
+.mid .bottom_img{
+    position: relative;
+    bottom: 370px;
+}
+.mid img:hover{
+    opacity: 0;
+}
+.content_three{
+	width: 100%;
+	height: 505px;
+	background: url(../images/content_three.png) no-repeat;
+	background-position: center center;
+}
+	
+.three_wrap{
+	text-align:center;
+	padding-top:138px;
+}
+.three_wrap  div：nth-child(1){
+	padding-top:138px;
+}
+.three_wrap span{
+	color: #666;
+	font-size: 13px;
+	font-family: 微软雅黑;
+    display: block;   /* 独占一行*/
+}
+.three_wrap div:nth-child(2){
+	margin-top:50px;
+}
+.bottom_text span:first-child{
+	color: #000;
+	font-size: 18px;
+	font-family:SimSun;
+	font-weight:bold;
+}
+.top_text span,.bottom_text span{
+	color:#666;
+	font-size:13px;
+	padding: 2px 0;
+}
+
+	
+.top_text span:first-child{
+	font-size:16px;
+}
+.bottom_text span{
+	font-size:16px;
+	font-family:SimSum;
+	color:#000;
+}
+.bottom_text span:nth-child(3){
+	font-weight:bold;
+	font-size: 18px;
+}
+.four_wrap{
+    padding-bottom: 120px;
+    text-align: center;
+}
+.four_wrap img{
+	margin-bottom: 40px;
+}
+.four_wrap>div img{
+	margin-bottom: 4px;
+}
+.footer{
+	background:#333;
+	text-align:right;
+  }
+.footr_wrap img{
+	width: 125px;
+	height: 125px;
+}
+.footer_text span{
+	font-family: SimSun;
+	font-size: 13px;
+	color: #999;
+}
+.footer_text span:last-child{
+	text-align: right;
+	font-size: 13px;
+	color: #fff;
+	margin-left: 110px;
+}
+.footer_text span:nth-child(4){
+	margin: 0 10px;
+}
+.back-top{
+	width: 50px;
+	height: 30px;
+	position:fixed;
+	right:30px;
+	bottom:160px;
+}
+.back-top img{
+    width: 100%;
+}
+
+
